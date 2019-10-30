@@ -5,10 +5,9 @@ import (
 	"encoding/json"
 	"io"
 
+	"github.com/lexkong/log/lager"
 	"github.com/onsi/ginkgo"
 	"github.com/onsi/gomega/gbytes"
-
-	"github.com/lexkong/lager"
 )
 
 type TestLogger struct {
